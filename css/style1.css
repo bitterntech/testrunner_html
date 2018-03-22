@@ -2861,17 +2861,19 @@ footer {
 }
 }
 
-/*
-@media (max-width:640px)
+
+@media (min-width:640px)
 {
 .navbar-brand>img {
  width: 54% !important;
 }
-h1.right_text {
+.right_text_wrap h1.right_text
+{
     font-size: 13px !important;
     line-height: 16px;
 
 }
+
 h5.right_subtext {
     
     line-height: 13px !important;
@@ -3019,4 +3021,3 @@ h5.clnt_hd
 
 }
 }
-*/
