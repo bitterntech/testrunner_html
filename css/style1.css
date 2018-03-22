@@ -2862,7 +2862,7 @@ footer {
 }
 
 
-@media (min-width:640px)
+/*@media (min-width:640px)
 {
 .navbar-brand>img {
  width: 54% !important;
@@ -3020,4 +3020,4 @@ h5.clnt_hd
     left: 264px;
 
 }
-}
+}*/
