@@ -2508,10 +2508,9 @@ p.sb_head {
 }
 
 .innr_sldr img {
-  
-    top: -374px;
-    left: 244px;
-    width: 80px;
+  top: -335px;
+  left: 444px;
+  width: 80px;
 }
 
 .form-control {
@@ -2563,3 +2562,452 @@ h1.right_text:after {
     margin-left: -20%;
 }
 }
+
+@media (max-width:991px)
+{
+.logo-wrap {
+    float: left;
+    margin-top: -20px;
+	
+}
+}
+@media (max-width:360px)
+{
+.logo-wrap 
+{
+    width: 40%;
+}
+
+h1.right_text {
+    font-size: 6px !important;
+	line-height:10px;
+}
+
+h5.right_subtext {
+    font-size: 4px !important;
+    right: 4px !important;
+	line-height: 6px !important;
+}
+
+h1.right_text:after
+{
+	display:none;
+}
+.log .btn {
+    padding: 5px 0;
+    width: 100%;
+}
+
+.btn {
+    font-size: 5px;
+    height: 16px;
+}
+.headr_sideimg img {
+    top: 2px;
+    left: 50px;
+}
+.log {
+    margin-top: -22px;
+
+}
+
+h3, .main-fn {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.clnt_headng:after {
+    left: 142px;
+}
+
+h4.locl:after {
+    top: 30px;
+    left: 136px;
+}
+
+h4.locl1:after {
+    top: 34px;
+    left: 130px;
+}
+.clients {
+  
+    margin-bottom: 30px;
+}
+
+.h3 {
+    font-size: 25px;
+}
+.h3:after, .user_bg:after, .user_icon:after, .user_bg1:before, .user_bg1:after, .user_icon1:after, .user_bg2:after, .icn_img, .icn_img1, .icn_img3, .icn_img2, .main-fn:after, .sidemob img
+{
+	display:none;
+}
+
+.user_bg, .user_bg1, .user_bg2{
+ 
+    width: 125px;
+    height: 125px;
+    margin-bottom: 28px;
+}
+
+.users1 {
+    margin-top: 10px;
+
+}
+
+.charctr {
+    font-size: 26px;
+}
+.create_pro {
+    top: 0px;
+    margin:0;
+}
+h5, .create p
+{
+	text-align:left;
+}
+.round1 {
+   
+    top: -30px;
+    left: 70px;
+
+}
+.create_img img {
+    width: 50%;
+}
+.botn, .botn1{
+    height: 32px;
+    font-size: 12px;
+	 width: 55px;
+}
+
+.chat_btn {
+    right: 308px;
+    top: 200px;
+}
+.botn:after {
+    top: 28px;
+    left: 14px;
+}
+.main-fn
+{
+    margin-bottom:80px;
+}
+
+.main_fnct img {
+    width: 55%;
+    right: -10px;
+    top: -67px;
+}
+
+.main_fn img {
+    width: 42%;
+    left: 70px;
+}
+
+.social {
+    position: relative;
+    top: 200px;
+}
+
+.networks {
+    margin-top:50px;
+}
+.sidemob {
+    right: -92px;
+    top: 90px;
+
+}
+.head {
+    font-size: 25px;
+    top: -38px;
+    right: 0;
+}
+
+.wrk {
+    top: 94px;
+    right:0;
+}
+p.sb_head {
+    margin-bottom: -40px;
+}
+.sidemob img {
+    width: 50%;
+}
+.work {
+    height: 258px;
+}
+h5.clnt_hd {
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.slidr p {
+    font-size: 8px;
+    padding: 50px 62px 50px 62px;
+    line-height: 12px;
+}
+
+.innr_sldr img {
+    top: -268px;
+    width: 50px;
+    left: 134px;
+}
+.slidr {
+     height: 219px;
+    margin-bottom: 40px;
+}
+.left_crsl img {
+    margin-right: 26px;
+    top: -133px;
+    width: 22px;
+}
+
+.ryt_crsl img {
+    top: -134px;
+    left: -76px;
+    width: 22px;
+    left: -10px;
+}
+.writr span {
+    font-size: 8px;
+    left: 122px;
+    top: 66px;
+}
+.h4 {
+    font-size: 18px;
+	margin: 0px 0 20px 0;
+}
+.client_list ul li img {
+    width: 90%;
+
+}
+.client_list ul li {
+    margin-left: 0px;
+    width: 18%;
+}
+.download {
+    height: 158px;
+    top: 60px;
+	margin-top:0;
+}
+
+.download h4
+{
+	font-size:13px;
+}
+.download p {
+    font-size: 10px;
+}
+.download img, .app img {
+    width: 20%;
+}
+
+footer {
+   top: -74px;
+
+}
+
+.footr_sectn img.banner {
+    width: 40%;
+    left: 160px;
+    top: 72px;
+
+}
+.footr_sectn img.baner {
+    width: 20%;
+    position: absolute;
+    left: 80px;
+    top: 64px;
+}
+.futr_head {
+    font-size: 15px;
+}
+.footr_sectn ul li {
+    font-size: 10px;
+}
+
+.futr_head1
+{
+	margin-top:0;
+	font-size: 15px;
+    text-align: center;
+}
+.footr_sect ul li {
+    font-size: 12px;
+    position: relative;
+    left: 100px;
+}
+.copyryt p {
+    text-align: center;
+	margin-top: 20px;
+}
+.trms p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+.trms {
+    float: left;
+    margin-left: 80px;
+}
+}
+
+/*
+@media (max-width:640px)
+{
+.navbar-brand>img {
+ width: 54% !important;
+}
+h1.right_text {
+    font-size: 13px !important;
+    line-height: 16px;
+
+}
+h5.right_subtext {
+    
+    line-height: 13px !important;
+}
+
+h1.right_text:after {
+    height: 3px;
+    top: 40px;
+
+}
+
+.log .btn {
+    width: 72%;
+
+}
+
+.btn {
+    font-size: 8px;
+	height: 28px;
+}
+
+.headr_sideimg img {
+    top: -26px;
+    left: 40px;
+}
+h3,.h3, .charctr, .head, h5.clnt_hd, .h4, .download h4 {
+   
+    font-size: 25px;
+	    margin-bottom: 25px;
+}
+
+h3:after, .clnt_headng:after, h4.locl:after, h4.locl1:after, .h3:after, .user_bg:after, .user_icon:after, 
+.user_bg1:before, .user_bg1:after, .user_icon1:after, .user_bg2:after, .icn_img, .icn_img1, .icn_img3, .icn_img2, .main-fn:after, .sidemob img, .main_fnct img, .main_fn img, h5.clnt_hd:after{
+	display:none;
+}
+.users {
+    margin-bottom: 40px;
+}
+
+.create_pro
+{
+	margin:0;
+}
+.create p, h5
+{
+	text-align:left;
+}
+
+.round1 {
+    top: -35px;
+    left: 140px;
+}
+.create_img img
+{
+	width:50%;
+}
+
+.chat_btn {
+    right: 190px;
+    top: 170px;
+}
+ .main-fn {
+    font-size: 25px;
+    margin-bottom:40px;
+}
+
+.networks3
+{
+	margin-bottom:0px;
+}
+
+.head
+{
+	left: 12px;
+}
+.wrk {
+    right:0;
+    left: 46px;
+}
+h5.clnt_hd
+{
+	margin:0;
+	margin-bottom:50px;
+}
+.client_list ul li img {
+    width: 80%;
+}
+.client_list ul li {
+    margin-left: -10px;
+    width: 20%;
+}
+.app img, .download img, .footr_sectn img.baner {
+    width: 14%;
+}
+.footr_sectn img.banner {
+    width: 25%;
+    right: 195px;
+}
+
+.footr_sectn img.baner
+{
+    left: 180px;
+}
+
+.download {
+ 
+    height: 220px;
+}
+
+ .ftr_hd   {
+	float: left;
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
+.futr_head1 {
+    text-align: center;
+}
+.footr_sect ul li {
+    font-size: 12px;
+    position: relative;
+    left: 220px;
+}
+
+.copyryt p {
+    text-align: center;
+	margin-top: 20px;
+}
+.trms p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+.trms {
+    float: left;
+    margin-left: 220px;
+}
+.footr_sectn img
+{
+	top:140px;
+}
+.innr_sldr img {
+    top: -362px;
+    left: 264px;
+
+}
+}
+*/
