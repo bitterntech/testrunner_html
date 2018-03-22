@@ -2579,9 +2579,9 @@ h1.right_text:after {
     width: 40%;
 }
 
-.work {
+/*.work {
     background: url("../images/bnnr_nw.png");
-}
+}*/
 
 
 h1.right_text {
@@ -2859,8 +2859,19 @@ footer {
     float: left;
     margin-left: 80px;
 }
-}
+.Characteristics {
+   
+    background: #370c55 !important; 
 
+}
+.hundred {
+    background: #1c0031 !important;
+}
+.work {
+    background: #755c86;
+
+}
+}
 
 /*@media (min-width:640px)
 {
