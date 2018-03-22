@@ -2237,11 +2237,20 @@ h6 {
     font-size: 16px;
 
 }
+.user_bg:after {
+    left: 220px;
+}
 
 .networks1 {
   height: 124px;
  margin-bottom: 8px;
  padding: 5px 0;
+}
+
+
+.user_bg1:after {
+
+    left: 230px;
 }
 
 .networks2 {
