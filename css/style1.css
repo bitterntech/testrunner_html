@@ -2579,6 +2579,11 @@ h1.right_text:after {
     width: 40%;
 }
 
+.work {
+    background: url("../images/bnnr_nw.png");
+}
+
+
 h1.right_text {
     font-size: 6px !important;
 	line-height:10px;
