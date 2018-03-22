@@ -2571,6 +2571,7 @@ h1.right_text:after {
 	
 }
 }
+
 @media (max-width:360px)
 {
 .logo-wrap 
@@ -2640,6 +2641,9 @@ h4.locl1:after {
 .h3:after, .user_bg:after, .user_icon:after, .user_bg1:before, .user_bg1:after, .user_icon1:after, .user_bg2:after, .icn_img, .icn_img1, .icn_img3, .icn_img2, .main-fn:after, .sidemob img
 {
 	display:none;
+}
+h3:after, h5.clnt_hd:after{
+	display:none !important;
 }
 
 .user_bg, .user_bg1, .user_bg2{
