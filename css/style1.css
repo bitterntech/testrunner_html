@@ -2917,6 +2917,14 @@ ul.nav.navbar-nav {
 .writr span {
     left: 94px;
 }
+h5.right_subtext {
+    top: -22px;
+    line-height: 11px !important;
+}
+h5.right_subtext {
+    font-size: 8px !important
+
+}
 }
 
 @media (max-width:360px)
