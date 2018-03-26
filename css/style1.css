@@ -1978,6 +1978,7 @@ button.bt {
 .navbar-collapse ul
 {
     padding: 0px !important;
+    margin: -10px 15px 0px 30px;
 }
 
 .headr_sideimg img
@@ -2395,6 +2396,11 @@ h1.right_text {
 }
 h1.right_text:after {
     top: 82px;
+}
+
+.navbar-nav>li {
+  
+    margin: 0 -10px;
 }
 
 h5.right_subtext {
