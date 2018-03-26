@@ -2865,6 +2865,12 @@ ul.nav.navbar-nav {
 
 }
 }
+@media (max-width:414px)
+{
+.footr_sectn img.banner {
+    left: 167px;
+    width: 30%;
+}
 
 @media (max-width:375px)
 {
