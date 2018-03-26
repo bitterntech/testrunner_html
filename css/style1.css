@@ -2619,7 +2619,7 @@ h1.right_text:after {
 @media (max-width:767px)
 {
 .navbar-brand  img{
-    width: 68% !important;
+    width: 54% !important;
 }
 .right_contnt h1 {
     font-size: 16px !important;
@@ -2716,8 +2716,16 @@ social {
     position: relative;
     top: 200px;
 
-	
+	}
+	.footer_list
+	{
+	    margin-left: 15px;
 }
+
+.client_list ul li img {
+    width: 60%;
+}
+
 
 .networks {
     margin-top: 430px;
