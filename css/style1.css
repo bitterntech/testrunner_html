@@ -2902,6 +2902,21 @@ ul.nav.navbar-nav {
     margin-top: -45px;
     margin-right: 80px;
 }
+.innr_sldr img {
+    top: -408px;
+	left: 154px;
+}
+
+.slidr p {
+    font-size: 8px;
+}
+.writr {
+  
+    top: 162px;
+}
+.writr span {
+    left: 94px;
+}
 }
 
 @media (max-width:360px)
