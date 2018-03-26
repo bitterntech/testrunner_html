@@ -2630,6 +2630,18 @@ h1.right_text:after {
     left:  70px;
     top: -40px;
 }
+
+ button.btnn{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family:'Raleway';
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+ }
+
 h5.right_subtext {
     top: -12px;
     line-height: 16px !important;
@@ -2816,6 +2828,9 @@ ul.nav.navbar-nav {
     background: #00000096;
     margin:0;
 }
+.navbar-collapse ul li:last-child {
+    display: block;
+}
 }
 
 
@@ -2961,7 +2976,7 @@ h3:after, h5.clnt_hd:after{
 }
 
 .charctr {
-    font-size: 26px;
+    font-size: 25px;
 }
 .create_pro {
     top: 0px;
@@ -2970,6 +2985,7 @@ h3:after, h5.clnt_hd:after{
 h5, .create p
 {
 	text-align:left;
+	margin-top: 10px;
 }
 .round1 {
    
@@ -3197,6 +3213,18 @@ div#navbarCollapse {
     position: relative;
     top: -50px;
 }
+.navbar-collapse ul li:last-child {
+    display: block;
 
-
+}
+ button.btnn{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family:'Raleway';
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+ }
 }
