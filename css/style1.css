@@ -1541,6 +1541,7 @@ img.imge {
 .footr_sectn ul {
     list-style-type:  none;
     margin-top: 8px;
+    margin-bottom: 110px;
 }
 
 .footr_sectn ul li {
@@ -2641,14 +2642,7 @@ h5{
     width: 14% !important;
     left: 200px;
   }
-  
- .log .btn
- { 
-    width: 20%;
-    top: -150px;
-    position: relative;
-    right: 0;
-}
+
 h1.right_text:after {
     top: 42px;
 	height:2px;
@@ -2755,7 +2749,57 @@ p.sb_head {
     text-align: center;
 
 }
+.trms {
+    margin-top: -83px;
 }
+.botn, .botn1 {
+   
+    display: none;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-header {
+    margin: 20px 0;
+}
+
+nav#myNavbar {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.log .btn {
+    padding: 5px 0;
+    width: 100%;
+}
+.log {
+    margin-top: -22px;
+    position: absolute;
+    width: 90px;
+    right: 10px;
+}
+
+.navbar-collapse ul li {
+    width: 100%;
+    margin-left: 0 !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+
+}
+
+ul.nav.navbar-nav {
+    background: #5c566230;
+   margin:0;
+}
+}
+
 
 @media (max-width:360px)
 {
@@ -2813,6 +2857,10 @@ ul.nav.navbar-nav {
     margin: 0;
 }
 
+.botn, .botn1 {
+   
+    display: none;
+}
 
 h1.right_text {
     font-size: 6px !important;
@@ -3066,6 +3114,7 @@ footer {
 }
 .futr_head {
     font-size: 15px;
+    margin-top: 20px;
 }
 .footr_sectn ul li {
     font-size: 10px;
@@ -3122,8 +3171,9 @@ footer {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
 }
-
+.footr_sectn ul {
+    margin-bottom: 110px;
 
 }
 
-
+}
