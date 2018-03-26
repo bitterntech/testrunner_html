@@ -147,6 +147,13 @@ nav#myNavbar {
 	color:#fff;
 	background:none;
 }
+
+.navbar-collapse ul li:last-child
+{
+	display:none;
+}
+
+
 	
 .inner_bnr_txt {
     width:  100%;
@@ -2171,7 +2178,8 @@ h5
 }
 .headr_sideimg{
 	width: 100%;
-    float: left;
+	float: left;
+	display:  none;
 }
 .work {
     height: 475px;
@@ -2646,9 +2654,14 @@ h5{
 h1.right_text:after {
     top: 42px;
 	height:2px;
+	display:none;
 
 }
 
+div#navbarCollapse {
+    position: relative;
+    top: -60px;
+}
 .round1 {
     top: -30px;
     left: 0;
@@ -2758,6 +2771,7 @@ p.sb_head {
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
+    top: -58px;
 }
 
 .navbar-header {
@@ -2777,6 +2791,7 @@ nav#myNavbar {
 .log .btn {
     padding: 5px 0;
     width: 100%;
+    display:  none;
 }
 .log {
     margin-top: -22px;
@@ -2791,12 +2806,11 @@ nav#myNavbar {
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
-
 }
 
 ul.nav.navbar-nav {
-    background: #5c566230;
-   margin:0;
+    background: #00000096;
+    margin:0;
 }
 }
 
@@ -2812,7 +2826,7 @@ nav#myNavbar {
 }
 
 ul.nav.navbar-nav {
-    background: #5c566230;
+    background: #00000096;
 }
 
 
@@ -2837,6 +2851,7 @@ ul.nav.navbar-nav {
 }
 
 .navbar-default .navbar-toggle:hover {
+    top:-38px;
     background:  transparent;
 }
 
@@ -2863,14 +2878,14 @@ ul.nav.navbar-nav {
 }
 
 h1.right_text {
-    font-size: 6px !important;
-	line-height:10px;
+    font-size: 12px !important;
+    line-height:10px;
 }
 
 h5.right_subtext {
-    font-size: 4px !important;
+    font-size: 7px !important;
     right: 4px !important;
-	line-height: 6px !important;
+    line-height: 10px !important;
 }
 
 h1.right_text:after
@@ -2892,7 +2907,7 @@ h1.right_text:after
 }
 .log {
     margin-top: -22px;
-
+    display:  none;
 }
 
 h3, .main-fn {
@@ -3163,8 +3178,7 @@ footer {
     margin: 0;
 }
 .navbar-default .navbar-toggle 
-{border-color:  transparent;
-}
+{top: -38px;border-color:  transparent;}
 .navbar-collapse ul li a {
     line-height: 8px;
 }
@@ -3175,5 +3189,10 @@ footer {
     margin-bottom: 110px;
 
 }
+div#navbarCollapse {
+    position: relative;
+    top: -50px;
+}
+
 
 }
