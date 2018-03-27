@@ -312,6 +312,11 @@ h5.right_subtext {
     margin-left: 133px;
 }
 
+.footerlogo {
+    width: 100%;
+}
+
+
 .online_contnt {
     margin-top: 0;
     padding-left: 0;
@@ -1572,7 +1577,7 @@ img.imge {
    
   .footr_sectn img.baner
 	 {
-      width: 50%;
+      width: 220px;
       float: left;
   }
 
@@ -2319,6 +2324,11 @@ h6 {
     float: left;
     width: 100%;
 }
+.footerlogo {
+   
+    text-align: left;
+}
+
 .clients p {
    
     font-size: 12px;
@@ -2345,6 +2355,11 @@ h4.locl1:after
     left: 80px;
 	
 }
+.innr_sldr img {
+    
+    left: 328px;
+}
+
 .clients {
     height: 410px
 }
@@ -2549,12 +2564,11 @@ p.sb_head {
     font-size: 11px;
     left: 235px;
 }
-}
 
 .innr_sldr img {
-  top: -335px;
-  left: 444px;
-  width: 80px;
+    top: -365px;
+    left: 322px;
+    width: 80px;
 }
 
 .form-control {
@@ -2664,7 +2678,7 @@ h5{
 
 .footr_sectn img.baner {
     /* width: 10% !important; */
-    left: 200px;
+    /* left: 200px; */
   }
 
 h1.right_text:after {
@@ -2766,10 +2780,10 @@ p.sb_head {
 }
 
 .footr_sectn img.baner {
-    width: 20%;
+    width: 70%;
     position: absolute;
-    left: 80px;
     top: 110px;
+    left: 50px;
 }
 .futr_head {
     font-size: 15px;
@@ -2868,8 +2882,49 @@ ul.nav.navbar-nav {
 @media (max-width:414px)
 {
 .footr_sectn img.banner {
-    left: 167px;
-    width: 30%;
+     width: 70%;  
+    left: 60px;
+}
+.client_list ul li {
+    margin-left: 0;
+    width: 18%;
+}
+.client_list ul {
+    width: 100%;
+}
+.client_list ul li img {
+    width: 100%;
+}
+.client_list {
+    width: 100%;
+}
+
+.h4 {
+    font-size: 20px;
+}
+.download h4 {
+    font-size: 16px;
+}
+.innr_sldr img {
+    top: -288px;
+    left: 164px;
+}
+
+.slidr p {
+    padding: 10px 62px 10px 62px;
+
+}
+.writr span {
+   left:114px;
+    top: 30px;
+}
+.writr {
+    top: 222px;
+}
+.trms p, .copyryt p {
+    font-size: 6px;
+}
+
 }
 
 @media (max-width:375px)
@@ -2891,7 +2946,7 @@ ul.nav.navbar-nav {
     margin-bottom: 25px;
 }
 .client_list ul li {
-    width: 27%;
+    width: 18%;
 }
 .footr_sectn img.banner {
     left: 158px;
@@ -2905,12 +2960,12 @@ ul.nav.navbar-nav {
     margin: 0;
 }
 .trms {
-    margin-top: -45px;
-    margin-right: 80px;
+    margin-top: -64px;
+    margin-right: 98px;
 }
 .innr_sldr img {
-    top: -408px;
-	left: 154px;
+    top: -236px;
+    left: 154px;
 }
 
 .slidr p {
@@ -3240,10 +3295,11 @@ footer {
     top: 72px;
 }
 .footr_sectn img.baner {
-    width: 10%;
+    width: 40%;
     position: absolute;
-    left: 120px;
     top: 68px;
+    left: 120px;
+    float:  none;
 }
 .futr_head {
     font-size: 15px;
@@ -3274,7 +3330,7 @@ footer {
 }
 .trms {
     float: left;
-    margin-left: 80px;
+    margin-left: 94px;
 }
 .Characteristics {
    
